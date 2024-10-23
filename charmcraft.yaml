@@ -63,6 +63,11 @@ config:
         The XML file in base64 to apply to the application.
       type: string
       default: ""
+    pre-hardening-script:
+      description: |
+        A Bash script to execute before the hardening
+      type: string
+      default: ""
 
 actions:
   execute-cis:
