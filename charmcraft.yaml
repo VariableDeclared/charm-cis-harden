@@ -1,29 +1,19 @@
-# This file configures Charmcraft.
-# See https://juju.is/docs/sdk/charmcraft-config for guidance.
-
-# (Required)
-# The charm package name, no spaces
-# See https://juju.is/docs/sdk/naming#heading--naming-charms for guidance.
+# Copyright 2024 Canonical, Ltd.
+# See LICENSE file for licensing details.
 name: charm-cis-hardening
-
-
-# (Required)
-# The charm type, either 'charm' or 'bundle'.
 type: charm
-
-
-# (Recommended)
 title: Charm Template
 subordinate: true
-
-# (Required)
-summary: A very short one-line summary of the charm.
-
-
-# (Required)
+summary: A charm to perform CIS hardening with usg on the machine it runs on.
 description: |
   A charm to enable per-application CIS hardening
-
+links:
+  contact: https://launchpad.net/~containers
+  documentation: https://discourse.charmhub.io/t/keystone-k8s-auth/14554
+  issues:
+  - https://github.com/VariableDeclared/charm-cis-harden/issues
+  source:
+  - https://github.com/VariableDeclared/charm-cis-harden/
 
 # (Required for 'charm' type)
 # A list of environments (OS version and architecture) where charms must be
