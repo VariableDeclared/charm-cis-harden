@@ -2,7 +2,7 @@
 # See LICENSE file for licensing details.
 name: charm-cis-hardening
 type: charm
-title: Charm Template
+title: CIS hardening
 subordinate: true
 summary: A charm to perform CIS hardening with usg on the machine it runs on.
 description: |
